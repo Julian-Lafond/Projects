@@ -31,4 +31,3 @@ Use the following command line options:
  -s: Enable printing of statistics to see computed terms and factors foreach nested function.
  
  -h: Display A Help Message Detailing Program Usage.
-
