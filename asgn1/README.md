@@ -4,8 +4,12 @@ This program is a self-playing implementation game in which up to 10 players rol
 
 Points are given as shown:
 
-SIDE	End turn
-BACK	10 pts
-UPRIGHT	10 pts
-SNOUT	15 pts
-EARS	5 pts
+BACK 
+10 points
+SNOUT 
+15 points
+UPRIGHT 
+10 points
+EATS 
+5 points
+SIDE End Turn
