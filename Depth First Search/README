@@ -9,3 +9,7 @@ Graph.h - header files for all functions used in Graph.c
 FindComponents.c - Reads from input file, adds edges, and determines the strongly connected components in topologically sorted order.
 Makefile - runs and builds the program 
 GraphTest.c - Testing for Graph ADTs
+
+To build the program:
+
+./FindComponents 
