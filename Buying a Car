@@ -1,0 +1,132 @@
+class Loan:
+    def __init__(self,interest,years,amount,borrower):
+        self.__interest = interest
+        self.__years = years
+        self.__amount = amount
+        self.__borrower = borrower
+    def getinterest(self):
+        return self.__interest
+    def getyears(self):
+        return self.__years
+    def getamount(self):
+        return self.__amount
+    def getborrower(self):
+        return self.__borrower
+    def setinterest(self,newinterest):
+        self.__interest = newinterest
+    def setyears(self,newyears):
+        self.__years = newyears
+    def setamount(self,newamount):
+        self.__amount = newamount
+    def setborrower(self,newborrower):
+        self.__borrower = newborrower
+    def getMonthlyPayment(self):
+        monthlyPayment = ((self.__amount * self.__interest/1200) / (1-(1/(1+self.__interest/1200)**(self.__years*12))))
+        return monthlyPayment
+    def getTotalPayment(self):
+        totalPayment = float(self.getMonthlyPayment()) * self.__years * 12
+        return totalPayment
+    def printLoanInfo(self):
+        monthlyPayment = self.getMonthlyPayment()
+        totalPayment = self.getTotalPayment()
+        print('The loan is for', self.getborrower())
+        print('The monthly payment is', "{:.2f}".format(monthlyPayment))
+        print('The total payment is', "{:,.2f}".format(totalPayment))
+    
+
+
+
+
+def main():
+    '''This function prints the name,monthly payment, and total payment'''
+    interest = float(input("Enter the yearly interest rate: "))
+    years = float(input("Enter number of years as an integers: "))
+    amount = float(input("Enter loan amount: "))
+    borrower = input("Enter a borrower's name: ")
+    total = Loan(interest,years,amount,borrower)
+    total.printLoanInfo()
+    change = input("Do you want to change the loan amount? Y for yes or enter to quit")
+    if change == 'Y' or change == 'y':
+        newloan = float(input("Enter new loan amount "))
+        total.setamount(newloan)
+        total.getMonthlyPayment()
+        total.getTotalPayment()
+        total.printLoanInfo()
+    else:
+        print('No new loan')
+
+
+if __name__=="__main__":
+    main()
+
+
+###Test Cases
+##
+###Test Case 1  
+##Enter the yearly interest rate: 2.5
+##Enter number of years as an integers: 5
+##Enter loan amount: 1000.00
+##Enter a borrower's name: John Jones 
+##The loan is for John Jones 
+##The monthly payment is 17.75
+##The total payment is 1,064.84
+##Do you want to change the loan amount? Y for yes or enter to quity
+##Enter new loan amount 5000
+##The loan is for John Jones 
+##The monthly payment is 88.74
+##The total payment is 5,324.21
+##
+##
+##
+###Test Case 2
+##Enter the yearly interest rate: 3
+##Enter number of years as an integers: 5
+##Enter loan amount: 3900
+##Enter a borrower's name: Julian
+##The loan is for Julian
+##The monthly payment is 70.08
+##The total payment is 4,204.67
+##Do you want to change the loan amount? Y for yes or enter to quitn
+##No new loan
+##
+###Test Case 3
+##Enter the yearly interest rate: 3.5
+##Enter number of years as an integers: 23
+##Enter loan amount: 54355
+##Enter a borrower's name: Kim
+##The loan is for Kim
+##The monthly payment is 287.00
+##The total payment is 79,212.04
+##Do you want to change the loan amount? Y for yes or enter to quity
+##Enter new loan amount 39393
+##The loan is for Kim
+##The monthly payment is 208.00
+##The total payment is 57,407.78
+##
+###Test Case 4
+##Enter the yearly interest rate: 3.4
+##Enter number of years as an integers: 32
+##Enter loan amount: 453543345
+##Enter a borrower's name: Ryan
+##The loan is for Ryan
+##The monthly payment is 1939413.72
+##The total payment is 744,734,870.10
+##Do you want to change the loan amount? Y for yes or enter to quity
+##Enter new loan amount 439432
+##The loan is for Ryan
+##The monthly payment is 1879.07
+##The total payment is 721,563.52
+##
+###Test Case 5
+##Enter the yearly interest rate: 90
+##Enter number of years as an integers: 32
+##Enter loan amount: 43
+##Enter a borrower's name: Tyler
+##The loan is for Tyler
+##The monthly payment is 3.23
+##The total payment is 1,238.40
+##Do you want to change the loan amount? Y for yes or enter to quity
+##Enter new loan amount 32432
+##The loan is for Tyler
+##The monthly payment is 2432.40
+##The total payment is 934,041.60
