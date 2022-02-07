@@ -1,18 +1,11 @@
-#Assignment 1 - Pass the Pigs
+Pass the Pigs
 
-In this program, each player rolls a pig and the player is awarded points depending how the pig lands. The first player to reach 100 points wins. 
+This program is a self-playing implementation game in which up to 10 players roll a pig and gain points until a player reaches 100 points. Each player may roll the pig until they land on its side. 
 
-# Building
+Points are given as shown:
 
-To build the program:
-
-$ clang -Wall -Wextra -Wpendatic -Werror -o pig pig.c names.h
-
-#Running 
-
-To run the program:
-
-$ ./pig
-
-
-
+SIDE	End turn
+BACK	10 pts
+UPRIGHT	10 pts
+SNOUT	15 pts
+EARS	5 pts
