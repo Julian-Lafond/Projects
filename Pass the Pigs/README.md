@@ -27,3 +27,4 @@ $ clang -Wall -Wextra -Wpendatic -Werror -o pig pig.c names.h
 To run the program:
 
 $ ./pig
+
