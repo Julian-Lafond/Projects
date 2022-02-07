@@ -1,4 +1,6 @@
-#PA 3 
+In this program, a graph was built to implement the Depth First Search algorithm.  The graph was then used to find the strongly connected components 
+of a digraph. 
+
 
 List.h - header files for all functions used in List.c
 List.c - contains a doubly linked list implementation with a cursor to traverse through the list 
