@@ -5,7 +5,7 @@ original order.
 List.cpp - Contains a Doubly Linked List of Node object implementation with a front and back dummy 
 List.h - Contains header files for List.cpp
 Shuffle.cpp - Performs the perfect shuffle which is where the deck of cards is split evently and merged into a new deck by adding the cards in an alternating manner
-Makefile - Runs and builds the progrma 
+Makefile - Runs and builds the program
 ListTest.cpp - Tests List ADT functions 
 
 
