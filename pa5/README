@@ -1,4 +1,6 @@
-#PA 5
+In this program, we created a doubly linked list in C++ with shuffling operations to determine how many shuffles are necessary to bring a List back into its 
+original order.
+
 
 List.cpp - Contains a Doubly Linked List of Node object implementation with a front and back dummy 
 List.h - Contains header files for List.cpp
