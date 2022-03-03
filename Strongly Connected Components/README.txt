@@ -1,4 +1,4 @@
-This Program finds the strongly connected components in topologically sorted order from a Graph ADT which contains Depth First Search.
+This Program finds the strongly connected components in topologically sorted order from a Graph ADT containing Depth First Search.
 
 List.h - header files for all functions used in List.c
 List.c - contains a doubly linked list implementation with a cursor to traverse through the list 
