@@ -1,4 +1,4 @@
-This program implements a doubly linked list and graph ADT finding the shortest path from one node to another
+This program implements a doubly linked list and graph ADT finding the shortest path in the Graph.
 
 
 List.c - Doubly linked list implementation
