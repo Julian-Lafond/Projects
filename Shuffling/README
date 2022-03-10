@@ -1,4 +1,4 @@
-#PA 5
+Creating a doubly linked list to determine how many shuffles are necessary to bring a List back into its original order to perform the perfect shuffle. A perfect shuffle is one in which a deck of cards is split evenly, then merged into a new deck by alternately inserting cards from each half into the new deck.
 
 List.cpp - Contains a Doubly Linked List of Node object implementation with a front and back dummy 
 List.h - Contains header files for List.cpp
