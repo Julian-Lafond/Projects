@@ -1,5 +1,4 @@
-#PA 7
-
+In this program, I used a dictionary ADT containing a string key and int value to display a binary search tree in different order traversals
 
 Dictionary.cpp - Contains a Dictionary ADT based on a binary search tree 
 Dictionary.h - Header files for Dictionary.cpp
