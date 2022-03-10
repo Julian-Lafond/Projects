@@ -1,8 +1,0 @@
-#PA 7
-
-
-Dictionary.cpp - Contains a Dictionary ADT based on a binary search tree 
-Dictionary.h - Header files for Dictionary.cpp
-DictionaryTest.cpp - Testing for Dictionary ADT
-Order.cpp - Client for Dictionary.cpp which puts key in alphabetical order and uses a pre order tree walk
-Makefile - runs and builds program 
