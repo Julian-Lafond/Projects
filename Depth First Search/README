@@ -1,5 +1,5 @@
 In this program, a graph was built to implement the Depth First Search algorithm.  The graph was then used to find the strongly connected components 
-of a digraph. 
+of a digraph
 
 
 List.h - header files for all functions used in List.c
