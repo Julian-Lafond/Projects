@@ -1,4 +1,4 @@
-#PA 8
+Creating a Red-Black Tree based from a Dictionary ADT.
 
 
 Dictionary.cpp - Contains a Dictionary ADT based on a red-black binary search tree 
