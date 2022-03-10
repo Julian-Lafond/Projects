@@ -1,6 +1,3 @@
-#Assignment 1 - Pass the Pigs
-
-Pass the Pigs
 
 This program is a self-playing implementation game in which up to 10 players roll a pig and gain points until a player reaches 100 points. Each player may roll the pig until they land on its side.
 
