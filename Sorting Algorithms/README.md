@@ -1,4 +1,4 @@
-This progam implementes four sorting orders: insertion, quick, shell, and heap sort. A test harness is built to create an array of pseudorandam elements to test each sort. We gather statistics about each sort and its performance. The statistics contain the size of the array, the number of moves required, and the number of comaprisons required. 
+This progam implementes four sorting orders: insertion, quick, shell, and heap sort. A test harness is built to create an array of pseudorandam elements to test each sort. We gather statistics about each sort and its performance. The statistics contain the size of the array, the number of moves required, and the number of comaprisons required
 
 #Building
 
