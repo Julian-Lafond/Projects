@@ -1,4 +1,4 @@
-In this program, we are implementing various mathematical functions and using them to compute the fundamental constants of e and pi. A test harness was also built to compare the the implemented functions to the math library.
+In this program, we are implementing various mathematical functions and using them to compute the fundamental constants of e and pi. A test harness was also built to compare the the implemented functions to the math library
 
 #Building
 
